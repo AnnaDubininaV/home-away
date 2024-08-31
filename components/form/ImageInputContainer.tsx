@@ -33,7 +33,8 @@ function ImageInputContainer({
   return (
     <div>
       {image ? (
-        <Image
+        // <change ti <Image /> component
+        <img
           src={image}
           alt={name}
           width={100}
